@@ -10,10 +10,11 @@
 	"categories": [
 		"Other"
 	],
-	"repository": "",
+	"repository": "https://github.com/Coiven/kaomoji-vscode",
 	"activationEvents": [
 		"onCommand:kaomoji.newOne"
 	],
+	"icon": "https://cdn.coiven.com/static/other/kaomoji-icon.jpg",
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
