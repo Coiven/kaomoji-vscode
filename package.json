@@ -6,15 +6,22 @@
 	"engines": {
 		"vscode": "^1.48.0"
 	},
+	"keywords": ["颜文字", "kaomoji", "emoji"],
 	"publisher": "Coiven",
 	"categories": [
 		"Other"
 	],
-	"repository": "https://github.com/Coiven/kaomoji-vscode",
+	"bugs": {
+		"url": "https://github.com/Coiven/kaomoji-vscode/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Coiven/kaomoji-vscode"
+	},
 	"activationEvents": [
 		"onCommand:kaomoji.newOne"
 	],
-	"icon": "https://cdn.coiven.com/static/other/kaomoji-icon.jpg",
+	"icon": "icon/kaomoji-icon.jpg",
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
